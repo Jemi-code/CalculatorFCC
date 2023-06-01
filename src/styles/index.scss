@@ -1,0 +1,13 @@
+@import "./common";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $primary-color;
+    font-family: $bodyFont;
+    font-size: 20px;
+}

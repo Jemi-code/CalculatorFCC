@@ -1,0 +1,15 @@
+@import "../../styles/common";
+
+.display{
+    font: {
+        family: $disFont;
+        size: 3rem;
+    } 
+    width: 400px;
+}
+
+#display{
+    margin: 0 !important;
+    max-width: 100%;
+    word-wrap: break-word;
+}

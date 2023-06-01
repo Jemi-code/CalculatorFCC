@@ -1,0 +1,38 @@
+@import "../../styles/common";
+
+.eachButton{
+    background-color: $numColor !important;
+    width: 100px !important;
+}
+
+.eachButton:hover{
+    border: 1px solid $border-color !important;
+    color: $black !important;
+}
+
+#clear{
+    background-color: red !important;
+}
+
+#delete{
+    background-color: $clearColor !important;
+}
+
+#multiply, #divide, #add, #subtract{
+    background-color: $operandColor !important;
+}
+
+#equals {
+    background-color: $equalColor !important;
+    grid-row: 4/ span 6;
+    grid-column: 4;
+}
+
+#decimal{
+    font-weight: 600;
+}
+
+#zero{
+    grid-column: 1/ span 2;
+    width: auto !important;
+}
